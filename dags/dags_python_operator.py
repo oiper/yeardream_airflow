@@ -6,7 +6,7 @@ import random
 with DAG(
     dag_id="dags_python_operator",
     schedule="30 6 * * *",
-    start_date=pendulum.datetime(2024, 6, 16, tz="Asia/Seoul"),
+    start_date=pendulum.datetime(2024, 6, 18, tz="Asia/Seoul"),
     catchup=False
 ) as dag:
     
