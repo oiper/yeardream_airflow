@@ -18,5 +18,4 @@ with DAG(
         task_id='py_t1',
         python_callable=select_fruit()
     )
-
     py_t1
